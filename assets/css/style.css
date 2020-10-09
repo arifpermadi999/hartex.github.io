@@ -557,8 +557,8 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 15px 0;
-  background: #ffb600;
+  padding: 0px 0;
+  /*background: #ffb600;*/
   min-height: 40px;
   margin-top: 72px;
 }
@@ -875,6 +875,91 @@ section {
   -webkit-filter: none;
   filter: none;
   transform: scale(1.1);
+}
+
+/*--------------------------------------------------------------
+# Subscribe area
+--------------------------------------------------------------*/
+
+.subscribe {
+    background: #ffb600;
+    padding: 0;
+}
+
+
+/* Call to action */
+
+.subscribe-call-to-acton {
+    min-height: 115px;
+    padding: 30px 0 0 30px;
+}
+
+.subscribe-call-to-acton h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.subscribe-call-to-acton h4 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+
+/* Newsletter */
+
+.ts-newsletter {
+    background: #252525;
+    position: relative;
+    min-height: 115px;
+    padding: 30px 0 0 50px;
+}
+
+.ts-newsletter:after {
+    content: "";
+    position: absolute;
+    background: #252525;
+    display: block;
+    width: 100%;
+    height: 100%;
+    right: -100%;
+    top: 0;
+}
+
+.newsletter-introtext {
+    float: left;
+    color: #fff;
+}
+
+.newsletter-introtext h4 {
+    margin: 0;
+    color: #fff;
+}
+
+.newsletter-form {
+    float: left;
+    margin-left: 30px;
+    margin-top: 3px;
+    position: relative;
+}
+
+.newsletter-form input {
+    background: none;
+    min-width: 300px;
+    font-size: 12px;
+    text-transform: capitalize;
+    height: 45px;
+    border: 1px solid rgba(255, 255, 255, .3);
+}
+
+.form-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px 0 0 4px;
+  text-align: left;
 }
 
 /*--------------------------------------------------------------
@@ -1307,6 +1392,7 @@ section {
   margin: 15px 0 0 0;
   padding: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Contact
