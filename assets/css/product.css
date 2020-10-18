@@ -28,6 +28,7 @@
     background:#272e38;
   overflow: auto;
   width: 100%;
+  display: inline-block;
   overflow-y: hidden;
   white-space: nowrap;
   margin-bottom: 2px;
@@ -35,7 +36,7 @@
 
 div.scrollmenu a {
   font-size: 17px;
-  display: inline-block;
+  display: inline-block !important;
   text-decoration: none;
   border: none;
   color:#fff;
@@ -84,14 +85,6 @@ div.scrollmenu a:hover {
     font-size: 11px;
 }
 
-.sub-category-tabs > div a.nav-item.nav-link.active:after
- {
-  content: "";
-  position: relative;
-  bottom: -10px;
-  border: 15px solid transparent;
-  border-top-color: #e74c3c ;
-}
 .sub-category-tabs .tab-content{
   background: #fdfdfd;
     line-height: 25px;
@@ -108,15 +101,6 @@ div.scrollmenu a:hover {
     border-radius:0;
     transition:background 0.20s linear;
 }
-
-@media(max-width: 1000px){
-  #category-tabs .scrollmenu{
-    margin-top: 70px;
+#category-tabs .scrollmenu{
+    margin-top: 10px;
   }
-}
-
-@media(max-width: 450px){
-  #category-tabs .scrollmenu{
-    margin-top: 80px;
-  }
-}

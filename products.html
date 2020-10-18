@@ -30,131 +30,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- <link href="assets/css/product.css" rel="stylesheet"> -->
-  <style type="text/css">
-    
-/********************* Shopping Demo-6 **********************/
-.product-grid6,.product-grid6 .product-image6{overflow:hidden}
-.product-grid6{font-family:'Open Sans',sans-serif;text-align:center;position:relative;transition:all .5s ease 0s}
-.product-grid6:hover{box-shadow:0 0 10px rgba(0,0,0,.3)}
-.product-grid6 .product-image6 a{display:block}
-.product-grid6 .product-image6 img{width:100%;height:auto;transition:all .5s ease 0s}
-.product-grid6:hover .product-image6 img{transform:scale(1.1)}
-.product-grid6 .product-content{padding:12px 12px 15px;transition:all .5s ease 0s}
-.product-grid6:hover .product-content{opacity:0}
-.product-grid6 .title{font-size:20px;font-weight:600;text-transform:capitalize;margin:0 0 10px;transition:all .3s ease 0s}
-.product-grid6 .title a{color:#000}
-.product-grid6 .title a:hover{color:#2e86de}
-.product-grid6 .price{font-size:18px;font-weight:600;color:#2e86de}
-.product-grid6 .price span{color:#999;font-size:15px;font-weight:400;text-decoration:line-through;margin-left:7px;display:inline-block}
-.product-grid6 .social{background-color:#fff;width:100%;padding:0;margin:0;list-style:none;opacity:0;transform:translateX(-50%);position:absolute;bottom:-50%;left:50%;z-index:1;transition:all .5s ease 0s}
-.product-grid6:hover .social{opacity:1;bottom:20px}
-.product-grid6 .social li{display:inline-block}
-.product-grid6 .social li a{color:#909090;font-size:16px;line-height:45px;text-align:center;height:45px;width:45px;margin:0 7px;border:1px solid #909090;border-radius:50px;display:block;position:relative;transition:all .3s ease-in-out}
-.product-grid6 .social li a:hover{color:#fff;background-color:#2e86de;width:80px}
-.product-grid6 .social li a:after,.product-grid6 .social li a:before{content:attr(data-tip);color:#fff;background-color:#2e86de;font-size:12px;letter-spacing:1px;line-height:20px;padding:1px 5px;border-radius:5px;white-space:nowrap;opacity:0;transform:translateX(-50%);position:absolute;left:50%;top:-30px}
-.product-grid6 .social li a:after{content:'';height:15px;width:15px;border-radius:0;transform:translateX(-50%) rotate(45deg);top:-20px;z-index:-1}
-.product-grid6 .social li a:hover:after,.product-grid6 .social li a:hover:before{opacity:1}
-@media only screen and (max-width:990px){.product-grid6{margin-bottom:30px}
-}
+  <link href="assets/css/product.css" rel="stylesheet">
 
- div.scrollmenu {
-    background:#272e38;
-  overflow: auto;
-  width: 100%;
-  overflow-y: hidden;
-  white-space: nowrap;
-  margin-bottom: 2px;
-}
-
-div.scrollmenu a {
-  font-size: 17px;
-  display: inline-block;
-  text-decoration: none;
-  border: none;
-  color:#fff;
-  background:#272e38;
-  border-radius:0;
-  padding: 10px 25px;
-
-}
-
-div.scrollmenu a:hover {
-  background-color: #e74c3c;
-}
-
-.sub-category-tabs{
-  display: none;
-}
-.sub-category-tabs .nav-item{
-    height: 65px;
-  }
-
-.sub-category-tabs .nav-item img{
-  margin-bottom: 5px;
-}
-
-.sub-category-tabs .nav-item p{
-  width: 100%;
-
-}
-
-.sub-category-tabs > .nav.nav-tabs{
-
-  border: none;
-    color:#fff;
-    background:#272e38;
-    border-radius:0;
-
-}
-.sub-category-tabs > div a.nav-item.nav-link,
-.sub-category-tabs > div a.nav-item.nav-link.active
-{
-  border: none;
-    /*padding: 18px 25px;*/
-    color:#fff;
-    background:#272e38;
-    border-radius:0;
-    font-size: 11px;
-}
-
-.sub-category-tabs > div a.nav-item.nav-link.active:after
- {
-  content: "";
-  position: relative;
-  bottom: -10px;
-  border: 15px solid transparent;
-  border-top-color: #e74c3c ;
-}
-.sub-category-tabs .tab-content{
-  background: #fdfdfd;
-    line-height: 25px;
-    border: 1px solid #ddd;
-    padding:30px 25px;
-}
-
-.sub-category-tabs > div a.nav-item.nav-link:hover,
-.sub-category-tabs > div a.nav-item.nav-link:focus
-{
-  border: none;
-    background: #e74c3c;
-    color:#fff;
-    border-radius:0;
-    transition:background 0.20s linear;
-}
-
-@media(max-width: 1000px){
-  #category-tabs .scrollmenu{
-    margin-top: 70px;
-  }
-}
-
-@media(max-width: 450px){
-  #category-tabs .scrollmenu{
-    margin-top: 80px;
-  }
-}
-  </style>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 
@@ -244,7 +121,7 @@ div.scrollmenu a:hover {
       <div class="container-fluid sub-category-tabs" id="nav_1-section">
         <div class="row" data-aos="fade-up">
           <div class="col-xs-12 " style="width: 100%">
-              <nav >
+              
                 <div class="nav nav-tabs scrollmenu" id="nav-tab" role="tablist">
 
                   <a class="nav-item nav-link active" id="nav_1-autolube_electric-tab" data-toggle="tab" href="#nav_1-autolube_electric" role="tab" aria-controls="autolube_electric" aria-selected="true">
@@ -262,7 +139,7 @@ div.scrollmenu a:hover {
                     <p>Autolube Pneumatic</p>
                   </a>           
                 </div>
-              </nav>
+              
               <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav_1-autolube_electric" role="tabpanel" aria-labelledby="autolube_electric-tab">
                   <div class="container">
