@@ -30,180 +30,201 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <link href="assets/css/product.css" rel="stylesheet">
+
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+<style type="text/css">
+  body{
 
-  <!-- =======================================================
-  * Template Name: Hartex - v2.1.0
-  * Template URL: https://bootstrapmade.com/Hartex-free-html-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-  <style type="text/css">
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .search-group{
+    border:1px solid black;
+    padding: 0px 5px;
+  }
+  .search-group input{
+    border:none;
+  }
+  .search-group input:focus{
+    outline: none;
+  }
+  nav{
 
-/********************* Shopping Demo-6 **********************/
-.product-grid6,.product-grid6 .product-image6{overflow:hidden}
-.product-grid6{font-family:'Open Sans',sans-serif;text-align:center;position:relative;transition:all .5s ease 0s}
-.product-grid6:hover{box-shadow:0 0 10px rgba(0,0,0,.3)}
-.product-grid6 .product-image6 a{display:block}
-.product-grid6 .product-image6 img{width:100%;height:auto;transition:all .5s ease 0s}
-.product-grid6:hover .product-image6 img{transform:scale(1.1)}
-.product-grid6 .product-content{padding:12px 12px 15px;transition:all .5s ease 0s}
-.product-grid6:hover .product-content{opacity:0}
-.product-grid6 .title{font-size:20px;font-weight:600;text-transform:capitalize;margin:0 0 10px;transition:all .3s ease 0s}
-.product-grid6 .title a{color:#000}
-.product-grid6 .title a:hover{color:#2e86de}
-.product-grid6 .price{font-size:18px;font-weight:600;color:#2e86de}
-.product-grid6 .price span{color:#999;font-size:15px;font-weight:400;text-decoration:line-through;margin-left:7px;display:inline-block}
-.product-grid6 .social{background-color:#fff;width:100%;padding:0;margin:0;list-style:none;opacity:0;transform:translateX(-50%);position:absolute;bottom:-50%;left:50%;z-index:1;transition:all .5s ease 0s}
-.product-grid6:hover .social{opacity:1;bottom:20px}
-.product-grid6 .social li{display:inline-block}
-.product-grid6 .social li a{color:#909090;font-size:16px;line-height:45px;text-align:center;height:45px;width:45px;margin:0 7px;border:1px solid #909090;border-radius:50px;display:block;position:relative;transition:all .3s ease-in-out}
-.product-grid6 .social li a:hover{color:#fff;background-color:#2e86de;width:80px}
-.product-grid6 .social li a:after,.product-grid6 .social li a:before{content:attr(data-tip);color:#fff;background-color:#2e86de;font-size:12px;letter-spacing:1px;line-height:20px;padding:1px 5px;border-radius:5px;white-space:nowrap;opacity:0;transform:translateX(-50%);position:absolute;left:50%;top:-30px}
-.product-grid6 .social li a:after{content:'';height:15px;width:15px;border-radius:0;transform:translateX(-50%) rotate(45deg);top:-20px;z-index:-1}
-.product-grid6 .social li a:hover:after,.product-grid6 .social li a:hover:before{opacity:1}
-@media only screen and (max-width:990px){.product-grid6{margin-bottom:30px}
-}
+    background-color: #272e38;
+  }
+  nav a{
+    margin: 0px 20px;
+    color:white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+  }
+  .navbar{
+    margin-top: 20px;
+  }
+  .navbar-nav  {
+    margin: 0px auto;
+  }
+  /*.nav-menu{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #272e38;
 
-
-
-#category-tabs{
-  width: 100%;
-}     
-#category-tabs a:hover{
-  cursor: pointer;
-}
-#category-tabs nav > .nav.nav-tabs{
-
-  border: none;
-    color:#fff;
-    background:#272e38;
-    border-radius:0;
-
-}
-#category-tabs nav > div a.nav-item.nav-link,
-#category-tabs nav > div a.nav-item.nav-link.active
-{
-  border: none;
-    padding: 18px 25px;
-    color:#fff;
-    background:#272e38;
-    border-radius:0;
-}
-
-#category-tabs .tab-content{
-  background: #fdfdfd;
-    line-height: 25px;
-    border: 1px solid #ddd;
-    border-top:5px solid #e74c3c;
-    border-bottom:5px solid #e74c3c;
-    padding:30px 25px;
-}
-
-#category-tabs nav > div a.nav-item.nav-link:hover,
-#category-tabs nav > div a.nav-item.nav-link:focus
-{
-  border: none;
-    background: #e74c3c;
-    color:#fff;
-    border-radius:0;
-    transition:background 0.20s linear;
-}
-
-.sub-category-tabs{
-  display: none;
-}
-.sub-category-tabs .nav-item{
-    height: 90px;
+  }
+  .nav-menu li{
+    margin: 0px 30px;
+  }
+  .nav-menu li a{
+    color: white;
+  }*/
+  #header .container-fluid {
+    padding: 0px;
+  }
+  @media(min-width: 800px){
+    /*#header{
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 0px;
+    }*/
+    header .search-group{
+      position: absolute;
+      right: 0px;
+    }
   }
 
-.sub-category-tabs nav > .nav.nav-tabs{
+  header #company-title h4{
+    text-align: center;
+  }
+  @media(max-width: 800px){
+    /*.nav-menu{
+      display: none;
+    }
+    .mobile-nav-toggle{
+      display: none;
+    }
+    #mobile-nav-edit{
+      display: block !important;
+    }*/
+    
+    header #logo{
+      margin:0px auto;
+      width: 240px;
+      margin-bottom: 10px;
+    }
+    header #company-title h4{
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    header .search-group{
+      margin: 0px auto;
+      margin-bottom: 10px;
+    }
 
-  border: none;
-    color:#fff;
-    background:#272e38;
-    border-radius:0;
+    main{
+      margin-top: 230px;
+    }
+  }
 
-}
-.sub-category-tabs nav > div a.nav-item.nav-link,
-.sub-category-tabs nav > div a.nav-item.nav-link.active
-{
-  border: none;
-    padding: 18px 25px;
-    color:#fff;
-    background:#272e38;
-    border-radius:0;
-}
+</style>
 
-.sub-category-tabs nav > div a.nav-item.nav-link.active:after
- {
-  content: "";
-  position: relative;
-  bottom: -6px;
-  border: 15px solid transparent;
-  border-top-color: #e74c3c ;
-}
-.sub-category-tabs .tab-content{
-  background: #fdfdfd;
-    line-height: 25px;
-    border: 1px solid #ddd;
-    padding:30px 25px;
-}
-
-.sub-category-tabs nav > div a.nav-item.nav-link:hover,
-.sub-category-tabs nav > div a.nav-item.nav-link:focus
-{
-  border: none;
-    background: #e74c3c;
-    color:#fff;
-    border-radius:0;
-    transition:background 0.20s linear;
-}
-  </style>
 </head>
 
 <body>
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-       <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="active"><a href="products.html">Products</a></li>
-
-          <li class="drop-down"><a href="">Company</a>
-            <ul>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li><a href="testimonials.html">Testimonials</a></li>
-              <!-- <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li> -->
-            </ul>
-          </li>
-
-          <li><a href="services.html">Services</a></li>
-          
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contacts</a></li>
-
-        </ul>
-      </nav>
-
-      <div class="header-social-links">
-        <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
-        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-        <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+  <header id="header" class="fixed-top" >
+    <div class="container align-items-center">
+      <div class="row">
+        <div class="col-lg-4" id="logo">
+           <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        </div>
+        <div class="col-lg-4" id="company-title">
+          <h4>lorem Ipsum dolorrr</h4>
+        </div>
+        <div class="col-lg-4" id="search">
+          <form class="navbar-form" role="search">
+            <div class="input-group ">
+              <div class="search-group">
+                <input type="text"  placeholder="Search" name="srch-term" id="srch-term">
+                <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </form>
+  
+  
+        </div>
+       
       </div>
+    </div>
+    <div class="container-fluid align-items-center">
+      <div class="row">
+        
+        <div class="col-lg-12" >
+          <nav class="navbar navbar-expand-lg ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+              <span style="color: white;"><i class="fa fa-bars"></i> &nbsp;MENU</span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Company
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+
+                    <a href="about.html"  class="dropdown-item">About Us</a>
+                    <a href="team.html"  class="dropdown-item">Team</a>
+                    <a href="testimonials.html"  class="dropdown-item">Testimonials</a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contacts</a>
+                </li>
+
+              </ul>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+<!--  OLD
+          <button type="button" class="mobile-nav-toggle d-lg-none" id="mobile-nav-edit"><i class="icofont-navigation-menu"></i></button>
+          
+           <nav class="nav-menu" >
+            <ul >
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="products.html">Products</a></li>
+
+              <li class="drop-down"><a href="">Company</a>
+                <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                </ul>
+              </li>
+
+              <li><a href="services.html">Services</a></li>
+              
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contacts</a></li>
+
+            </ul>
+          </nav> -->
     </div>
   </header><!-- End Header -->
 
@@ -226,192 +247,256 @@
       </div>
     </section> --><!-- End Breadcrumbs -->
     <div class="container-fluid breadcrumbs" id="category-tabs">
-      <div class="row" data-aos="fade-up">
-        <div style="width: 100%;margin-bottom: 2px;">
-            <nav>
-              <div class="nav nav-tabs nav-fill scrollmenu" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" href="#" id="nav_1">Automatic Lubrication System</a>
-                    <a class="nav-item nav-link " href="#" id="nav_2">Fire Suppression & Extinguisher</a>
-                    <a class="nav-item nav-link " href="#" id="nav_3">Hose Hydraulic & Fitting</a>
-                    <a class="nav-item nav-link " href="#" id="nav_4">Accessories</a>
-                    <a class="nav-item nav-link " href="#" id="nav_5">Lubrication Equipment</a>
-                    <a class="nav-item nav-link " href="#" id="nav_6">Catalog</a>
-              </div>
-            </nav>
-        </div>
+      <div data-aos="fade-up">
+          <div class="scrollmenu">
+              <a class="nav-item nav-link active" href="#" id="nav_1">Automatic Lubrication System</a>
+              <a class="nav-item nav-link " href="#" id="nav_2">Fire Suppression & Extinguisher</a>
+              <a class="nav-item nav-link " href="#" id="nav_3">Hose Hydraulic & Fitting</a>
+              <a class="nav-item nav-link " href="#" id="nav_4">Accessories</a>
+              <a class="nav-item nav-link " href="#" id="nav_5">Lubrication Equipment</a>
+              <a class="nav-item nav-link " href="#" id="nav_6">Catalog</a>
+          </div>
+        
+
+      
       </div>
     </div>
 
       <!-- AUTOLUBE -->
-      <div class="container-fluid sub-category-tabs" id="nav_1-section">
+      <div class="container-fluid sub-category-tabs" id="nav_1-section" style="display: block">
         <div class="row" data-aos="fade-up">
           <div class="col-xs-12 " style="width: 100%">
-              <nav >
-                <div class="nav nav-tabs nav-fill scrollmenu" id="nav-tab" role="tablist">
+              
+                <div class="nav nav-tabs scrollmenu" id="nav-tab" role="tablist">
 
                   <a class="nav-item nav-link active" id="nav_1-autolube_electric-tab" data-toggle="tab" href="#nav_1-autolube_electric" role="tab" aria-controls="autolube_electric" aria-selected="true">
-                    <img src="assets/img/sub-category/autolube_electric.png" style="width: 40px;height: 40px" />
-                    <p>Automatic Lubrication System Electric</p>
+                    <center><img src="assets/img/sub-category/autolube_electric.png" style="width: 30px;height: 30px" /></center>
+                    <p>Autolube Electric</p>
                   </a>
 
                   <a class="nav-item nav-link " id="nav_1-autolube_hydraulic-tab" data-toggle="tab" href="#nav_1-autolube_hydraulic" role="tab" aria-controls="autolube_hydraulic" aria-selected="true">
-                    <img src="assets/img/sub-category/autolube_hydraulic.png" style="width: 40px;height: 40px" />
-                    <p>Automatic Lubrication System Hydraulic</p>
+                    <center><img src="assets/img/sub-category/autolube_hydraulic.png" style="width: 30px;height: 30px" /></center>
+                    <p>Autolube Hydraulic</p>
                   </a>
                   
                   <a class="nav-item nav-link " id="nav_1-autolube_pneumatic-tab" data-toggle="tab" href="#nav_1-autolube_pneumatic" role="tab" aria-controls="autolube_pneumatic" aria-selected="true">
-                    <img src="assets/img/sub-category/autolube_pneumatic.png" style="width: 40px;height: 40px" />
-                    <p>Automatic Lubrication System Pneumatic</p>
+                    <center><img src="assets/img/sub-category/autolube_pneumatic.png" style="width: 30px;height: 30px" /></center>
+                    <p>Autolube Pneumatic</p>
                   </a>           
                 </div>
-              </nav>
+              
               <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav_1-autolube_electric" role="tabpanel" aria-labelledby="autolube_electric-tab">
-                  <div class="container">
-                    <br>
-                    <center><h3 class="h3">Automatic Lubrication System Electric</h3></center>
-                    <br><br>
-                      <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                          <div class="product-grid6">
-                              <div class="product-image6">
-                                  <a href="#">
-                                      <img class="pic-1" src="assets/img/products/Autolube_Electric/1.jpg">
-                                  </a>
-                              </div>
-                              <div class="product-content">
-                                  <h3 class="title"><a href="#">Lubrication System Electric</a></h3>
-                                  <div class="price">Rp 100.0000
-                                  </div>
-                              </div>
-                              <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                         
                                   
-                              </ul>
-                          </div>
-                          </div>
-                          <div class="col-md-3 col-sm-6">
-                              <div class="product-grid6">
-                                  <div class="product-image6">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <h3 class="h3">Informasi</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                      <div class="col-lg-8">
+                        <br>
+                          <center>
+                            <h3 class="h3">Automatic Lubrication System Electric</h3>
+                          </center>
+                          <br>
+                            <br>
+                              <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                  <div class="product-grid6">
+                                    <div class="product-image6">
                                       <a href="#">
+                                        <img class="pic-1" src="assets/img/products/Autolube_Electric/1.jpg">
+                                        </a>
+                                      </div>
+                                      <div class="product-content">
+                                        <h3 class="title">
+                                          <a href="#">Lubrication System Electric</a>
+                                        </h3>
+                                        <div class="price">Rp 100.0000
+                                                    </div>
+                                      </div>
+                                      <ul class="social">
+                                        <li>
+                                          <a href="product_detail.html" data-tip="Detail">
+                                            <i class="fa fa-search"></i>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-3 col-sm-6">
+                                    <div class="product-grid6">
+                                      <div class="product-image6">
+                                        <a href="#">
                                           <img class="pic-1" src="assets/img/products/Autolube_Electric/2.jpg">
-                                      </a>
-                                  </div>
-                                  <div class="product-content">
-                                      <h3 class="title"><a href="#">Lubrication System Electric</a></h3>
-                                      <div class="price">Rp 100.0000
+                                          </a>
+                                        </div>
+                                        <div class="product-content">
+                                          <h3 class="title">
+                                            <a href="#">Lubrication System Electric</a>
+                                          </h3>
+                                          <div class="price">Rp 100.0000
+                                                        </div>
+                                        </div>
+                                        <ul class="social">
+                                          <li>
+                                            <a href="product_detail.html" data-tip="Detail">
+                                              <i class="fa fa-search"></i>
+                                            </a>
+                                          </li>
+                                        </ul>
                                       </div>
-                                  </div>
-                                  <ul class="social">
-                                      <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="col-md-3 col-sm-6">
-                              <div class="product-grid6">
-                                  <div class="product-image6">
-                                      <a href="#">
-                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/3.jpg">
-                                      </a>
-                                  </div>
-                                  <div class="product-content">
-                                      <h3 class="title"><a href="#">Lubrication System Electric</a></h3>
-                                      <div class="price">Rp 100.0000
+                                    </div>
+                                    <div class="col-md-3 col-sm-6">
+                                      <div class="product-grid6">
+                                        <div class="product-image6">
+                                          <a href="#">
+                                            <img class="pic-1" src="assets/img/products/Autolube_Electric/3.jpg">
+                                            </a>
+                                          </div>
+                                          <div class="product-content">
+                                            <h3 class="title">
+                                              <a href="#">Lubrication System Electric</a>
+                                            </h3>
+                                            <div class="price">Rp 100.0000
+                                                        </div>
+                                          </div>
+                                          <ul class="social">
+                                            <li>
+                                              <a href="product_detail.html" data-tip="Detail">
+                                                <i class="fa fa-search"></i>
+                                              </a>
+                                            </li>
+                                          </ul>
+                                        </div>
                                       </div>
-                                  </div>
-                                  <ul class="social">
-                                      <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="col-md-3 col-sm-6">
-                              <div class="product-grid6">
-                                  <div class="product-image6">
-                                      <a href="#">
-                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/4.jpg">
-                                      </a>
-                                  </div>
-                                  <div class="product-content">
-                                      <h3 class="title"><a href="#">Lubrication System Electric</a></h3>
-                                      <div class="price">Rp 100.0000
-                                      </div>
-                                  </div>
-                                  <ul class="social">
-                                      <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="col-md-3 col-sm-6">
-                              <div class="product-grid6">
-                                  <div class="product-image6">
-                                      <a href="#">
-                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/5.jpg">
-                                      </a>
-                                  </div>
-                                  <div class="product-content">
-                                      <h3 class="title"><a href="#">Lubrication System Electric</a></h3>
-                                      <div class="price">Rp 100.0000
-                                      </div>
-                                  </div>
-                                  <ul class="social">
-                                      <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="col-md-3 col-sm-6">
-                              <div class="product-grid6">
-                                  <div class="product-image6">
-                                      <a href="#">
-                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/6.jpg">
-                                      </a>
-                                  </div>
-                                  <div class="product-content">
-                                      <h3 class="title"><a href="#">Lubrication System Electric</a></h3>
-                                      <div class="price">Rp 100.0000
-                                      </div>
-                                  </div>
-                                  <ul class="social">
-                                      <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="col-md-3 col-sm-6">
-                              <div class="product-grid6">
-                                  <div class="product-image6">
-                                      <a href="#">
-                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/7.jpg">
-                                      </a>
-                                  </div>
-                                  <div class="product-content">
-                                      <h3 class="title"><a href="#">Lubrication System Electric</a></h3>
-                                      <div class="price">Rp 100.0000
-                                      </div>
-                                  </div>
-                                  <ul class="social">
-                                      <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="col-md-3 col-sm-6">
-                              <div class="product-grid6">
-                                  <div class="product-image6">
-                                      <a href="#">
-                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/8.jpg">
-                                      </a>
-                                  </div>
-                                  <div class="product-content">
-                                      <h3 class="title"><a href="#">Lubrication System Electric</a></h3>
-                                      <div class="price">Rp 100.0000
-                                      </div>
-                                  </div>
-                                  <ul class="social">
-                                      <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                        </div>
-                    </div>            
-                  </div>
+                                      <div class="col-md-3 col-sm-6">
+                                        <div class="product-grid6">
+                                          <div class="product-image6">
+                                            <a href="#">
+                                              <img class="pic-1" src="assets/img/products/Autolube_Electric/4.jpg">
+                                              </a>
+                                            </div>
+                                            <div class="product-content">
+                                              <h3 class="title">
+                                                <a href="#">Lubrication System Electric</a>
+                                              </h3>
+                                              <div class="price">Rp 100.0000
+                                                        </div>
+                                            </div>
+                                            <ul class="social">
+                                              <li>
+                                                <a href="product_detail.html" data-tip="Detail">
+                                                  <i class="fa fa-search"></i>
+                                                </a>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6">
+                                          <div class="product-grid6">
+                                            <div class="product-image6">
+                                              <a href="#">
+                                                <img class="pic-1" src="assets/img/products/Autolube_Electric/5.jpg">
+                                                </a>
+                                              </div>
+                                              <div class="product-content">
+                                                <h3 class="title">
+                                                  <a href="#">Lubrication System Electric</a>
+                                                </h3>
+                                                <div class="price">Rp 100.0000
+                                                        </div>
+                                              </div>
+                                              <ul class="social">
+                                                <li>
+                                                  <a href="product_detail.html" data-tip="Detail">
+                                                    <i class="fa fa-search"></i>
+                                                  </a>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-3 col-sm-6">
+                                            <div class="product-grid6">
+                                              <div class="product-image6">
+                                                <a href="#">
+                                                  <img class="pic-1" src="assets/img/products/Autolube_Electric/6.jpg">
+                                                  </a>
+                                                </div>
+                                                <div class="product-content">
+                                                  <h3 class="title">
+                                                    <a href="#">Lubrication System Electric</a>
+                                                  </h3>
+                                                  <div class="price">Rp 100.0000
+                                                        </div>
+                                                </div>
+                                                <ul class="social">
+                                                  <li>
+                                                    <a href="product_detail.html" data-tip="Detail">
+                                                      <i class="fa fa-search"></i>
+                                                    </a>
+                                                  </li>
+                                                </ul>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-6">
+                                              <div class="product-grid6">
+                                                <div class="product-image6">
+                                                  <a href="#">
+                                                    <img class="pic-1" src="assets/img/products/Autolube_Electric/7.jpg">
+                                                    </a>
+                                                  </div>
+                                                  <div class="product-content">
+                                                    <h3 class="title">
+                                                      <a href="#">Lubrication System Electric</a>
+                                                    </h3>
+                                                    <div class="price">Rp 100.0000
+                                                        </div>
+                                                  </div>
+                                                  <ul class="social">
+                                                    <li>
+                                                      <a href="product_detail.html" data-tip="Detail">
+                                                        <i class="fa fa-search"></i>
+                                                      </a>
+                                                    </li>
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-3 col-sm-6">
+                                                <div class="product-grid6">
+                                                  <div class="product-image6">
+                                                    <a href="#">
+                                                      <img class="pic-1" src="assets/img/products/Autolube_Electric/8.jpg">
+                                                      </a>
+                                                    </div>
+                                                    <div class="product-content">
+                                                      <h3 class="title">
+                                                        <a href="#">Lubrication System Electric</a>
+                                                      </h3>
+                                                      <div class="price">Rp 100.0000
+                                                        </div>
+                                                    </div>
+                                                    <ul class="social">
+                                                      <li>
+                                                        <a href="product_detail.html" data-tip="Detail">
+                                                          <i class="fa fa-search"></i>
+                                                        </a>
+                                                      </li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>              
+                </div>
                   <div class="tab-pane fade show " id="nav_1-autolube_hydraulic" role="tabpanel" aria-labelledby="autolube_hydraulic-tab">
                     <div class="container">
                       <br>
@@ -431,7 +516,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -448,7 +533,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -465,7 +550,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -498,7 +583,7 @@
                                       </div>
                                   </div>
                                   <ul class="social">
-                                      <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                      <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                       
                                   </ul>
                               </div>
@@ -516,7 +601,7 @@
                                       </div>
                                   </div>
                                   <ul class="social">
-                                      <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                      <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                       
                                   </ul>
                               </div>
@@ -534,15 +619,15 @@
         <div class="row" data-aos="fade-up">
           <div class="col-xs-12 " style="width: 100%">
             <nav >
-              <div class="nav nav-tabs nav-fill scrollmenu" id="nav-tab" role="tablist">
+              <div class="nav nav-tabs scrollmenu" id="nav-tab" role="tablist">
 
                 <a class="nav-item nav-link active" id="nav_2-fire_suppression-tab" data-toggle="tab" href="#nav_2-fire_suppression" role="tab" aria-controls="fire_suppression" aria-selected="true">
-                  <img src="assets/img/sub-category/Suppression_System.png" style="width: 40px;height: 40px" />
+                  <center><img src="assets/img/sub-category/Suppression_System.png" style="width: 30px;height: 30px" /></center>
                   <p>Fire Suppression System</p>
                 </a>
 
                 <a class="nav-item nav-link " id="nav_2-extinguisher-tab" data-toggle="tab" href="#nav_2-extinguisher" role="tab" aria-controls="extinguisher" aria-selected="true">
-                  <img src="assets/img/sub-category/portable_extinguiser.png" style="width: 40px;height: 40px" />
+                  <center><img src="assets/img/sub-category/portable_extinguiser.png" style="width: 30px;height: 30px" /></center>
                   <p>Portable Extinguisher</p>
                 </a>          
               </div>
@@ -569,7 +654,7 @@
                                 </div>
                             </div>
                             <ul class="social">
-                                <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 
                             </ul>
                         </div>
@@ -587,7 +672,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -604,7 +689,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                         </div>
@@ -631,7 +716,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -648,7 +733,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -665,7 +750,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -682,7 +767,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -699,7 +784,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -716,21 +801,21 @@
         <div class="row" data-aos="fade-up">
           <div class="col-xs-12 " style="width: 100%">
             <nav >
-              <div class="nav nav-tabs nav-fill scrollmenu" id="nav-tab" role="tablist">
+              <div class="nav nav-tabs scrollmenu" id="nav-tab" role="tablist">
 
                 <a class="nav-item nav-link active" id="nav_3-hydraulic_hose-tab" data-toggle="tab" href="#nav_3-hydraulic_hose" role="tab" aria-controls="hydraulic_hose" aria-selected="true">
-                  <img src="assets/img/sub-category/hydraulic_hose.png" style="width: 40px;height: 40px" />
-                  <p>Hartex Hydraulic Hose</p>
+                  <center><img src="assets/img/sub-category/hydraulic_hose.png" style="width: 30px;height: 30px" /></center>
+                  <p>Hydraulic Hose</p>
                 </a>
 
                 <a class="nav-item nav-link " id="nav_3-hydraulic_fitting-tab" data-toggle="tab" href="#nav_3-hydraulic_fitting" role="tab" aria-controls="hydraulic_fitting" aria-selected="true">
-                  <img src="assets/img/sub-category/portable_extinguiser.png" style="width: 40px;height: 40px" />
-                  <p>Hartex Hydraulic Fitting</p>
+                  <center><img src="assets/img/sub-category/portable_extinguiser.png" style="width: 30px;height: 30px" /></center>
+                  <p>Hydraulic Fitting</p>
                 </a>
 
                 <a class="nav-item nav-link " id="nav_3-hydraulic_adaptor-tab" data-toggle="tab" href="#nav_3-hydraulic_adaptor" role="tab" aria-controls="hydraulic_adaptor" aria-selected="true">
-                  <img src="assets/img/sub-category/adaptor.png" style="width: 40px;height: 40px" />
-                  <p>Hartex Hydraulic Adaptor & Connector</p>
+                  <center><img src="assets/img/sub-category/adaptor.png" style="width: 30px;height: 30px" /></center>
+                  <p>Hydraulic Adaptor & Connector</p>
                 </a>          
               </div>
             </nav>
@@ -756,7 +841,7 @@
                                 </div>
                             </div>
                             <ul class="social">
-                                <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 
                             </ul>
                         </div>
@@ -774,7 +859,7 @@
                                         </div>
                                     </div>
                                     <ul class="social">
-                                        <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                        <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -801,7 +886,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -818,7 +903,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -835,7 +920,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -852,7 +937,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -869,7 +954,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -896,7 +981,7 @@
                                 </div>
                             </div>
                             <ul class="social">
-                                <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 
                             </ul>
                         </div>
@@ -914,7 +999,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -931,7 +1016,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -949,20 +1034,20 @@
         <div class="row" data-aos="fade-up">
           <div class="col-xs-12 " style="width: 100%">
             <nav >
-              <div class="nav nav-tabs nav-fill scrollmenu" id="nav-tab" role="tablist">
+              <div class="nav nav-tabs scrollmenu" id="nav-tab" role="tablist">
 
                 <a class="nav-item nav-link active" id="nav_4-safety_device-tab" data-toggle="tab" href="#nav_4-safety_device" role="tab" aria-controls="safety_device" aria-selected="true">
-                  <img src="assets/img/sub-category/Safety_Device.png" style="width: 40px;height: 40px" />
+                  <center><img src="assets/img/sub-category/Safety_Device.png" style="width: 30px;height: 30px" /></center>
                   <p>Hartex Safety Device</p>
                 </a>
 
                 <a class="nav-item nav-link " id="nav_4-quick_coupling-tab" data-toggle="tab" href="#nav_4-quick_coupling" role="tab" aria-controls="quick_coupling" aria-selected="true">
-                  <img src="assets/img/sub-category/Quick_Coupling.png" style="width: 40px;height: 40px" />
+                  <center><img src="assets/img/sub-category/Quick_Coupling.png" style="width: 30px;height: 30px" /></center>
                   <p>Hartex Quick Coupling</p>
                 </a>
 
                 <a class="nav-item nav-link " id="nav_4-pneumatic_accesories-tab" data-toggle="tab" href="#nav_4-pneumatic_accesories" role="tab" aria-controls="pneumatic_accesories" aria-selected="true">
-                  <img src="assets/img/sub-category/autolube_pneumatic.png" style="width: 40px;height: 40px" />
+                  <center><img src="assets/img/sub-category/autolube_pneumatic.png" style="width: 30px;height: 30px" /></center>
                   <p>Hartex Pneumatic Accesories</p>
                 </a>          
               </div>
@@ -989,7 +1074,7 @@
                                 </div>
                             </div>
                             <ul class="social">
-                                <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 
                             </ul>
                         </div>
@@ -1007,7 +1092,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1024,7 +1109,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1041,7 +1126,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1068,7 +1153,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -1085,7 +1170,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -1102,7 +1187,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -1119,7 +1204,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -1136,7 +1221,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -1153,7 +1238,7 @@
                                   </div>
                               </div>
                               <ul class="social">
-                                  <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                  <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                               </ul>
                           </div>
                       </div>
@@ -1180,7 +1265,7 @@
                                 </div>
                             </div>
                             <ul class="social">
-                                <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 
                             </ul>
                         </div>
@@ -1198,7 +1283,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1215,7 +1300,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div><div class="col-md-3 col-sm-6">
@@ -1231,7 +1316,7 @@
                                     </div>
                                 </div>
                                 <ul class="social">
-                                    <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                    <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1249,10 +1334,10 @@
         <div class="row" data-aos="fade-up">
           <div class="col-xs-12 " style="width: 100%">
             <nav >
-              <div class="nav nav-tabs nav-fill scrollmenu" id="nav-tab" role="tablist">
+              <div class="nav nav-tabs scrollmenu" id="nav-tab" role="tablist">
 
                 <a class="nav-item nav-link active" id="nav_5-safety_device-tab" data-toggle="tab" href="#nav_5-diaghpram" role="tab" aria-controls="diaghpram" aria-selected="true">
-                  <img src="assets/img/sub-category/Diaphragm_Pump.png" style="width: 40px;height: 40px" />
+                  <center><img src="assets/img/sub-category/Diaphragm_Pump.png" style="width: 30px;height: 30px" /></center>
                   <p>Hartex Diaghpram</p>
                 </a>
           
@@ -1280,7 +1365,7 @@
                                 </div>
                             </div>
                             <ul class="social">
-                                <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                 
                             </ul>
                         </div>
@@ -1298,7 +1383,7 @@
                                         </div>
                                     </div>
                                     <ul class="social">
-                                        <li><a href="" data-tip="Detail"><i class="fa fa-search"></i></a></li>
+                                        <li><a href="product_detail.html" data-tip="Detail"><i class="fa fa-search"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1436,137 +1521,7 @@
           </div>
         </div>
       </div>
-
-      <!-- ======= About Us Section ======= -->
-    <section id="about-us" class="about-us">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row content">
-          <div class="col-lg-6" data-aos="fade-right">
-            <h2>Information Product</h2>
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-            <ul>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequa</li>
-              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</li>
-            </ul>
-            <p class="font-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-    
-
-
-      
-
-    <section id="subscribe" class="subscribe no-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-12 col-xs-12">
-            <div class="subscribe-call-to-acton">
-              <h3>Can We Help?</h3>
-              <h4>(+62) 123-456-789</h4>
-            </div>
-          </div><!-- Col end -->
-
-          <div class="col-md-8 col-sm-12 col-xs-12">
-            <div class="ts-newsletter">
-              <div class="newsletter-introtext">
-                <h4>Newsletter Sign-up</h4>
-                <p>Latest updates and news</p>
-              </div>
-
-              <div class="newsletter-form">
-                <form action="#" method="post">
-                  <div class="form-group">
-                    <input type="email" name="email" id="newsletter-form-email" class="form-control form-control-lg"
-                      placeholder="Your Email Here" autocomplete="off">
-                  </div>
-                </form>
-              </div>
-          </div><!-- Col end -->
-        </div><!-- Content row end -->
-      </div>
-    </section>
-    <!--/ News end -->
-
-    <!-- ======= Our Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Clients</h2>
-        </div>
-
-        <div class="row no-gutters clients-wrap clearfix" data-aos="fade-up">
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-6">
-            <div class="client-logo">
-              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Our Clients Section -->
-
-  </main><!-- End #main -->
-
+    </main>
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
@@ -1655,7 +1610,7 @@
   <script src="assets/js/main.js"></script>
   <script type="text/javascript">
     $(function(){
-      var id_pref = "";
+      var id_pref = "nav_1";
       $("#category-tabs .nav-item").click(function(){
         var myid = $(this).attr("id");
         

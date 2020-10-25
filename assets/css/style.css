@@ -26,6 +26,10 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
+main{
+  margin-top: 150px;
+}
+header 
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -214,9 +218,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
-  position: fixed;
-  right: 15px;
-  top: 15px;
+  /*position: fixed;*/
+  
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  justify-content: center;
   z-index: 9998;
   border: 0;
   background: none;
