@@ -31,7 +31,6 @@
   display: inline-block;
   overflow-y: hidden;
   white-space: nowrap;
-  margin-bottom: 2px;
 }
 
 div.scrollmenu a {
@@ -52,6 +51,7 @@ div.scrollmenu a:hover {
 
 .sub-category-tabs{
   display: none;
+  margin-top: -6px;
 }
 .sub-category-tabs .nav-item{
     height: 65px;
