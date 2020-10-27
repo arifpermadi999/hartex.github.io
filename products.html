@@ -39,15 +39,56 @@
 
 <body>
   <!-- ======= Header ======= -->
+  
+
   <header id="header" class="fixed-top" >
-    
+    <div id="top-bar" class="top-bar">
+      <div class="container-fluid">
+        <div class="row" style="border-bottom: 1px solid red;">
+          <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+            <ul class="top-info">
+              <li><i class="fa fa-map-marker">&nbsp;</i>
+                <p class="info-text">Jl.Cakung Jakarta, Indonesian</p>
+              </li>
+            </ul>
+          </div>
+          <!--/ Top info end -->
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 top-social text-right">
+            <ul class="unstyled">
+              <li>
+                <a title="Facebook" href="https://facebbok.com/themefisher.com">
+                  <span class="social-icon"><i class="fa fa-facebook"></i></span>
+                </a>
+                <a title="Twitter" href="https://twitter.com/themefisher.com">
+                  <span class="social-icon"><i class="fa fa-twitter"></i></span>
+                </a>
+                <a title="Instagram" href="https://instagram.com/themefisher.com">
+                  <span class="social-icon"><i class="fa fa-instagram"></i></span>
+                </a>
+                <a title="Linkdin" href="https://github.com/themefisher.com">
+                  <span class="social-icon"><i class="fa fa-github"></i></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--/ Top social end -->
+        </div>
+        <!--/ Content row end -->
+      </div>
+      <!--/ Container end -->
+    </div>
+    <!--/ Topbar end --><br/>
+
+
+
     <div class="container-fluid align-items-center">
       <div class="row">
         <div class="col-lg-4" id="logo">
            <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
         </div>
         <div class="col-lg-4" id="company-title">
-          <h4>lorem Ipsum dolorrr</h4>
+          <h4>INDUSTRIAL SOLUTIONS</h4>
         </div>
         <div class="col-lg-4" id="search">
           <form class="navbar-form" role="search">
@@ -68,10 +109,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="products.html">What's New</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -81,47 +125,22 @@
                     
                     <a href="about.html"  class="dropdown-item">About Us</a>
                     <a href="team.html"  class="dropdown-item">Team</a>
-                    <a href="testimonials.html"  class="dropdown-item">Testimonials</a>
+                    <a href="testimonials.html"  class="dropdown-item">Resources</a>
                   </div>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="services.html">Services</a>
+                  <a class="nav-link" href="services.html">Catalog</a>
                 </li>
 
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contacts</a>
                 </li>
-
               </ul>
             </div>
           </nav>
-
         </div>
       </div>
-<!--  OLD
-          <button type="button" class="mobile-nav-toggle d-lg-none" id="mobile-nav-edit"><i class="icofont-navigation-menu"></i></button>
-          
-           <nav class="nav-menu" >
-            <ul >
-              <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="products.html">Products</a></li>
-
-              <li class="drop-down"><a href="">Company</a>
-                <ul>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="team.html">Team</a></li>
-                  <li><a href="testimonials.html">Testimonials</a></li>
-                </ul>
-              </li>
-
-              <li><a href="services.html">Services</a></li>
-              
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="contact.html">Contacts</a></li>
-
-            </ul>
-          </nav> -->
     </div>
   </header><!-- End Header -->
 
@@ -129,20 +148,6 @@
 
 
   <main id="main">
-    <!-- ======= Breadcrumbs ======= -->
-    <!-- <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Products</h2>
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>Portolio</li>
-          </ol>
-        </div>
-
-      </div>
-    </section> --><!-- End Breadcrumbs -->
     <div class="container-fluid breadcrumbs" id="category-tabs" >
       <div data-aos="fade-up">
           <div class="scrollmenu" style="border-top: 2px solid #e74c3c;border-bottom: 2px solid #e74c3c;">
@@ -160,236 +165,268 @@
       <div class="container-fluid sub-category-tabs" id="nav_1-section" style="display: block">
         <div class="row" data-aos="fade-up">
           <div class="col-xs-12 " style="width: 100%">
-              
-                <div class="nav nav-tabs scrollmenu" id="nav-tab" role="tablist">
+              <div class="nav nav-tabs scrollmenu" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav_1-autolube_electric-tab" data-toggle="tab" href="#nav_1-autolube_electric" role="tab" aria-controls="autolube_electric" aria-selected="true">
+                  <center><img src="assets/img/sub-category/autolube_electric.png" style="width: 30px;height: 30px" /></center>
+                  <p>Autolube Electric</p>
+                </a>
 
-                  <a class="nav-item nav-link active" id="nav_1-autolube_electric-tab" data-toggle="tab" href="#nav_1-autolube_electric" role="tab" aria-controls="autolube_electric" aria-selected="true">
-                    <center><img src="assets/img/sub-category/autolube_electric.png" style="width: 30px;height: 30px" /></center>
-                    <p>Autolube Electric</p>
-                  </a>
-
-                  <a class="nav-item nav-link " id="nav_1-autolube_hydraulic-tab" data-toggle="tab" href="#nav_1-autolube_hydraulic" role="tab" aria-controls="autolube_hydraulic" aria-selected="true">
-                    <center><img src="assets/img/sub-category/autolube_hydraulic.png" style="width: 30px;height: 30px" /></center>
-                    <p>Autolube Hydraulic</p>
-                  </a>
-                  
-                  <a class="nav-item nav-link " id="nav_1-autolube_pneumatic-tab" data-toggle="tab" href="#nav_1-autolube_pneumatic" role="tab" aria-controls="autolube_pneumatic" aria-selected="true">
-                    <center><img src="assets/img/sub-category/autolube_pneumatic.png" style="width: 30px;height: 30px" /></center>
-                    <p>Autolube Pneumatic</p>
-                  </a>           
-                </div>
+                <a class="nav-item nav-link " id="nav_1-autolube_hydraulic-tab" data-toggle="tab" href="#nav_1-autolube_hydraulic" role="tab" aria-controls="autolube_hydraulic" aria-selected="true">
+                  <center><img src="assets/img/sub-category/autolube_hydraulic.png" style="width: 30px;height: 30px" /></center>
+                  <p>Autolube Hydraulic</p>
+                </a>
+                
+                <a class="nav-item nav-link " id="nav_1-autolube_pneumatic-tab" data-toggle="tab" href="#nav_1-autolube_pneumatic" role="tab" aria-controls="autolube_pneumatic" aria-selected="true">
+                  <center><img src="assets/img/sub-category/autolube_pneumatic.png" style="width: 30px;height: 30px" /></center>
+                  <p>Autolube Pneumatic</p>
+                </a>           
+              </div>
               
               <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav_1-autolube_electric" role="tabpanel" aria-labelledby="autolube_electric-tab">
-                                         
-                                  
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-lg-4">
+                      <div class="col-lg-4" style="text-align: justify;">
+                        <br/>
                         <h3 class="h3">Informasi</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
                       </div>
                       <div class="col-lg-8">
                         <br>
                           <center>
                             <h3 class="h3">Automatic Lubrication System Electric</h3>
                           </center>
-                          <br>
-                            <br>
-                              <div class="row">
+                          <br><br>
+                          <div class="row">
+                            <!-- 1 -->
+                            <div class="col-md-3 col-sm-6">
+                              <div class="product-grid6">
+                                <div class="product-image6">
+                                  <a href="#">
+                                    <img class="pic-1" src="assets/img/products/Autolube_Electric/1.jpg">
+                                    </a>
+                                  </div>
+                                  <div class="product-content">
+                                    <h3 class="title">
+                                      <a href="#">Lubrication System Electric</a>
+                                    </h3>
+                                  </div>
+                                  <ul class="social">
+                                    <li>
+                                      <a href="assets/img/products/Autolube_Electric/1.jpg" data-gall="portfolioGallery" class="venobox preview-link" data-tip="zoom-in">
+                                        <i class="fa fa-search"></i>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="product_detail.html" data-tip="Detail">
+                                        <i class="fa fa-mail-forward"></i>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <!-- 2 -->
+                              <div class="col-md-3 col-sm-6">
+                                <div class="product-grid6">
+                                  <div class="product-image6">
+                                    <a href="#">
+                                      <img class="pic-1" src="assets/img/products/Autolube_Electric/2.jpg">
+                                      </a>
+                                    </div>
+                                    <div class="product-content">
+                                      <h3 class="title">
+                                        <a href="#">Lubrication System Electric</a>
+                                      </h3>
+                                    </div>
+                                    <ul class="social">
+                                    <li>
+                                      <a href="assets/img/products/Autolube_Electric/2.jpg" data-gall="portfolioGallery" class="venobox preview-link" data-tip="zoom-in">
+                                        <i class="fa fa-search"></i>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="product_detail.html" data-tip="Detail">
+                                        <i class="fa fa-mail-forward"></i>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                  </div>
+                                </div>
+                                <!-- 3 -->
                                 <div class="col-md-3 col-sm-6">
                                   <div class="product-grid6">
                                     <div class="product-image6">
                                       <a href="#">
-                                        <img class="pic-1" src="assets/img/products/Autolube_Electric/1.jpg">
+                                        <img class="pic-1" src="assets/img/products/Autolube_Electric/3.jpg">
                                         </a>
                                       </div>
                                       <div class="product-content">
                                         <h3 class="title">
                                           <a href="#">Lubrication System Electric</a>
                                         </h3>
-                                        <div class="price">Rp 100.0000
-                                                    </div>
                                       </div>
                                       <ul class="social">
                                         <li>
-                                          <a href="product_detail.html" data-tip="Detail">
+                                          <a href="assets/img/products/Autolube_Electric/3.jpg" data-gall="portfolioGallery" class="venobox preview-link" data-tip="zoom-in">
                                             <i class="fa fa-search"></i>
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a href="product_detail.html" data-tip="Detail">
+                                            <i class="fa fa-mail-forward"></i>
+                                          </a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                  <div class="product-grid6">
+                                    <div class="product-image6">
+                                      <a href="#">
+                                        <img class="pic-1" src="assets/img/products/Autolube_Electric/4.jpg">
+                                        </a>
+                                      </div>
+                                      <div class="product-content">
+                                        <h3 class="title">
+                                          <a href="#">Lubrication System Electric</a>
+                                        </h3>
+                                      </div>
+                                      <ul class="social">
+                                        <li>
+                                          <a href="assets/img/products/Autolube_Electric/4.jpg" data-gall="portfolioGallery" class="venobox preview-link" data-tip="zoom-in">
+                                            <i class="fa fa-search"></i>
+                                          </a>
+                                        </li>
+                                        <li>
+                                          <a href="product_detail.html" data-tip="Detail">
+                                            <i class="fa fa-mail-forward"></i>
                                           </a>
                                         </li>
                                       </ul>
                                     </div>
                                   </div>
+                                  <!-- 4 -->
                                   <div class="col-md-3 col-sm-6">
                                     <div class="product-grid6">
                                       <div class="product-image6">
                                         <a href="#">
-                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/2.jpg">
+                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/5.jpg">
                                           </a>
                                         </div>
                                         <div class="product-content">
                                           <h3 class="title">
                                             <a href="#">Lubrication System Electric</a>
                                           </h3>
-                                          <div class="price">Rp 100.0000
-                                                        </div>
                                         </div>
                                         <ul class="social">
                                           <li>
-                                            <a href="product_detail.html" data-tip="Detail">
+                                            <a href="assets/img/products/Autolube_Electric/5.jpg" data-gall="portfolioGallery" class="venobox preview-link" data-tip="zoom-in">
                                               <i class="fa fa-search"></i>
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a href="product_detail.html" data-tip="Detail">
+                                              <i class="fa fa-mail-forward"></i>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                  <!-- 5 -->
+                                  <div class="col-md-3 col-sm-6">
+                                    <div class="product-grid6">
+                                      <div class="product-image6">
+                                        <a href="#">
+                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/6.jpg">
+                                          </a>
+                                        </div>
+                                        <div class="product-content">
+                                          <h3 class="title">
+                                            <a href="#">Lubrication System Electric</a>
+                                          </h3>
+                                        </div>
+                                        <ul class="social">
+                                          <li>
+                                            <a href="assets/img/products/Autolube_Electric/6.jpg" data-gall="portfolioGallery" class="venobox preview-link" data-tip="zoom-in">
+                                              <i class="fa fa-search"></i>
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a href="product_detail.html" data-tip="Detail">
+                                              <i class="fa fa-mail-forward"></i>
+                                            </a>
+                                          </li>
+                                        </ul>
+                                    </div>
+                                  </div>
+                                  <!-- 6 -->
+                                  <div class="col-md-3 col-sm-6">
+                                    <div class="product-grid6">
+                                      <div class="product-image6">
+                                        <a href="#">
+                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/7.jpg">
+                                          </a>
+                                        </div>
+                                        <div class="product-content">
+                                          <h3 class="title">
+                                            <a href="#">Lubrication System Electric</a>
+                                          </h3>
+                                        </div>
+                                        <ul class="social">
+                                          <li>
+                                            <a href="assets/img/products/Autolube_Electric/7.jpg" data-gall="portfolioGallery" class="venobox preview-link" data-tip="zoom-in">
+                                              <i class="fa fa-search"></i>
+                                            </a>
+                                          </li>
+                                          <li>
+                                            <a href="product_detail.html" data-tip="Detail">
+                                              <i class="fa fa-mail-forward"></i>
                                             </a>
                                           </li>
                                         </ul>
                                       </div>
-                                    </div>
-                                    <div class="col-md-3 col-sm-6">
-                                      <div class="product-grid6">
-                                        <div class="product-image6">
-                                          <a href="#">
-                                            <img class="pic-1" src="assets/img/products/Autolube_Electric/3.jpg">
+                                  </div>
+                                  <!-- 7 -->
+                                  <div class="col-md-3 col-sm-6">
+                                    <div class="product-grid6">
+                                      <div class="product-image6">
+                                        <a href="#">
+                                          <img class="pic-1" src="assets/img/products/Autolube_Electric/8.jpg">
+                                          </a>
+                                        </div>
+                                        <div class="product-content">
+                                          <h3 class="title">
+                                            <a href="#">Lubrication System Electric</a>
+                                          </h3>
+                                        </div>
+                                        <ul class="social">
+                                          <li>
+                                            <a href="assets/img/products/Autolube_Electric/8.jpg" data-gall="portfolioGallery" class="venobox preview-link" data-tip="zoom-in">
+                                              <i class="fa fa-search"></i>
                                             </a>
-                                          </div>
-                                          <div class="product-content">
-                                            <h3 class="title">
-                                              <a href="#">Lubrication System Electric</a>
-                                            </h3>
-                                            <div class="price">Rp 100.0000
-                                                        </div>
-                                          </div>
-                                          <ul class="social">
-                                            <li>
-                                              <a href="product_detail.html" data-tip="Detail">
-                                                <i class="fa fa-search"></i>
-                                              </a>
-                                            </li>
-                                          </ul>
-                                        </div>
+                                          </li>
+                                          <li>
+                                            <a href="product_detail.html" data-tip="Detail">
+                                              <i class="fa fa-mail-forward"></i>
+                                            </a>
+                                          </li>
+                                        </ul>
                                       </div>
-                                      <div class="col-md-3 col-sm-6">
-                                        <div class="product-grid6">
-                                          <div class="product-image6">
-                                            <a href="#">
-                                              <img class="pic-1" src="assets/img/products/Autolube_Electric/4.jpg">
-                                              </a>
-                                            </div>
-                                            <div class="product-content">
-                                              <h3 class="title">
-                                                <a href="#">Lubrication System Electric</a>
-                                              </h3>
-                                              <div class="price">Rp 100.0000
-                                                        </div>
-                                            </div>
-                                            <ul class="social">
-                                              <li>
-                                                <a href="product_detail.html" data-tip="Detail">
-                                                  <i class="fa fa-search"></i>
-                                                </a>
-                                              </li>
-                                            </ul>
-                                          </div>
-                                        </div>
-                                        <div class="col-md-3 col-sm-6">
-                                          <div class="product-grid6">
-                                            <div class="product-image6">
-                                              <a href="#">
-                                                <img class="pic-1" src="assets/img/products/Autolube_Electric/5.jpg">
-                                                </a>
-                                              </div>
-                                              <div class="product-content">
-                                                <h3 class="title">
-                                                  <a href="#">Lubrication System Electric</a>
-                                                </h3>
-                                                <div class="price">Rp 100.0000
-                                                        </div>
-                                              </div>
-                                              <ul class="social">
-                                                <li>
-                                                  <a href="product_detail.html" data-tip="Detail">
-                                                    <i class="fa fa-search"></i>
-                                                  </a>
-                                                </li>
-                                              </ul>
-                                            </div>
-                                          </div>
-                                          <div class="col-md-3 col-sm-6">
-                                            <div class="product-grid6">
-                                              <div class="product-image6">
-                                                <a href="#">
-                                                  <img class="pic-1" src="assets/img/products/Autolube_Electric/6.jpg">
-                                                  </a>
-                                                </div>
-                                                <div class="product-content">
-                                                  <h3 class="title">
-                                                    <a href="#">Lubrication System Electric</a>
-                                                  </h3>
-                                                  <div class="price">Rp 100.0000
-                                                        </div>
-                                                </div>
-                                                <ul class="social">
-                                                  <li>
-                                                    <a href="product_detail.html" data-tip="Detail">
-                                                      <i class="fa fa-search"></i>
-                                                    </a>
-                                                  </li>
-                                                </ul>
-                                              </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-6">
-                                              <div class="product-grid6">
-                                                <div class="product-image6">
-                                                  <a href="#">
-                                                    <img class="pic-1" src="assets/img/products/Autolube_Electric/7.jpg">
-                                                    </a>
-                                                  </div>
-                                                  <div class="product-content">
-                                                    <h3 class="title">
-                                                      <a href="#">Lubrication System Electric</a>
-                                                    </h3>
-                                                    <div class="price">Rp 100.0000
-                                                        </div>
-                                                  </div>
-                                                  <ul class="social">
-                                                    <li>
-                                                      <a href="product_detail.html" data-tip="Detail">
-                                                        <i class="fa fa-search"></i>
-                                                      </a>
-                                                    </li>
-                                                  </ul>
-                                                </div>
-                                              </div>
-                                              <div class="col-md-3 col-sm-6">
-                                                <div class="product-grid6">
-                                                  <div class="product-image6">
-                                                    <a href="#">
-                                                      <img class="pic-1" src="assets/img/products/Autolube_Electric/8.jpg">
-                                                      </a>
-                                                    </div>
-                                                    <div class="product-content">
-                                                      <h3 class="title">
-                                                        <a href="#">Lubrication System Electric</a>
-                                                      </h3>
-                                                      <div class="price">Rp 100.0000
-                                                        </div>
-                                                    </div>
-                                                    <ul class="social">
-                                                      <li>
-                                                        <a href="product_detail.html" data-tip="Detail">
-                                                          <i class="fa fa-search"></i>
-                                                        </a>
-                                                      </li>
-                                                    </ul>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                        </div>              
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>      
+
+
+
+
                 </div>
                   <div class="tab-pane fade show " id="nav_1-autolube_hydraulic" role="tabpanel" aria-labelledby="autolube_hydraulic-tab">
                     <div class="container">
