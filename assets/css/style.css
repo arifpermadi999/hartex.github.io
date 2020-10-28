@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
 main{
-  margin-top: 120px;
+  margin-top: 110px;
 }
 header 
 
@@ -408,6 +408,9 @@ ul.top-info li p.info-text {
   .header-social-links {
     padding: 0 48px 0 0;
     border-left: 0;
+  }
+  .navbar {
+    margin-top: 50px;
   }
 }
 
@@ -2426,7 +2429,7 @@ section {
     font-family: "Roboto", sans-serif;
   }
   .navbar{
-    margin-top: 40px;
+    margin-top: 55px;
   }
   .navbar-nav  {
     margin: 0px auto;
@@ -2452,7 +2455,9 @@ section {
       padding-right: 50px;
       padding-bottom: 0px;
     }*/
-
+.navbar{
+    margin-top: 31px;
+  }
     #header .container-fluid,main {
       padding: 0px 70px ;
     }
@@ -2489,7 +2494,7 @@ section {
     }
 
     main{
-      margin-top: 310px;
+      margin-top: 320px;
     }
   }
 
